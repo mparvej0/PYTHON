@@ -1,50 +1,27 @@
-user_name = "Mr. Raju"
-user_age = "22"
-print(f"Hello, my name is {user_name} and I am {user_age} years old.")
+# Qs1. Assign your favorite color to a variable and print it.
+favourite_color = "Blue"
+print(favourite_color)
 
-temperature = 25
-temperature = 20
-temperature = 35
-print(temperature, temperature, temperature)
+# Qs2.Create three variables for name, age, and country. Use them in a sentence using print().
+name = "Mr. Rau"
+age = 22
+country = "India"
+print("My name is ", name, "I am", age, "years old, and I live in", country)
 
-radius = 7
-c = 2 * 3.14159 * radius
-print(c)
+"""3. Assign your favorite quote to a variable named
+quote. Print the quote along with its length using the len() function."""
+qoute = "If you involve a people to solving a problem then problem become more complicated."
+print(qoute, len(qoute))
 
-height_meters = 1.80
-weight_in_kg = 75
-bmi = weight_in_kg / (height_meters ** 2)
-print(bmi)
+"""Qs4. Create three variables: country_name
+population_in_millions, and is_developed. Assign
+appropriate values and data types to these variables.
+Print a sentence using these variables, such as India has a population of 1.4 billion. It is a developing country."""
+country_name = "India"
+population_in_millions = "India has a population of 1.4 billion"
+is_developed = "It is a developing country"
+print(country_name)
+print(population_in_millions)
+print(is_developed)
 
-a = 10
-b = 20
-temp = a
-a = b
-b = temp
-print("a =", a)
-print("b =", b)
 
-pi = 3.14159
-raidus = 12
-area = pi * radius
-print(area)
-
-sentence = "Python is fun!"
-print(len(sentence))
-print(sentence.upper())
-
-name = input("Enter your name ")
-age = input("Enter your age ")
-print(f"Hello {name} You are {age} years odl.")
-
-length = 5
-width = 10
-height = 15
-volume = length * width * height
-print(volume)
-
-has_licens = True
-if has_licens:
-    print("You can drive")
-else:
-    print("You can't drve")
