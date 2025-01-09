@@ -12,4 +12,6 @@ age = input("How old are you? ")
 print(f"Hello {name}, you are {age} years old.")
 
 # Qs4. How can you take multiple inputs from the user in one line (e.g., "10 20 30") and convert them into a list of integers?
-user
+user_input= input("Enter numbers separated by spaces: ")
+numbers = list(map(int, user_input.split()))
+print(numbers)
